@@ -91,7 +91,7 @@ function makeResponsive() {
       .attr("opacity", ".9")
 
 
-    //___________________________________________
+
 
     // append state abbreviations
     var text = chartGroup.selectAll(".stateText")
@@ -106,7 +106,7 @@ function makeResponsive() {
       .attr("text-anchor", "middle")
       .attr("fill", "white");
 
-    //___________________________________________
+
 
 
     // Initialize tool tip
